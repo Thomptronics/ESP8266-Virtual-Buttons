@@ -14,5 +14,7 @@ Use of our example sketch assumes you have an Alexa device and an [ESP8266 devic
 1. Follow the instructions on www.virtualbuttons.com to enable the Virtual Buttons skill and ensure it is working for you
 1. Pull the example files from this repository
 1. Change the STASSID, STAPSK, and STACODE defines in the ESP8266_VB_HTTPS_call.ino file to match your SSID, WiFi password, and Virtual Buttons access code
-1. Upload the edited sketch to your ESP8266
+1. Upload the edited sketch to your ESP8266 and see if it works
+1. Think up all the great things you can now do with your ESP8266 and Alexa!
 
+-Thomptronics
