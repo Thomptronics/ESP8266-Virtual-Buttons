@@ -7,7 +7,7 @@ Virtual Buttons combines an Alexa Smart Home skill with a REST API, allowing you
 The trick here is that the Virtual Buttons API requires HTTPS, which can be an issue on small devices such as the ESP8266. To learn more about HTPPS on the ESP8266, we recommend you watch [Andreas Spiess' "How to secure our devices using SSL" YouTube video](https://www.youtube.com/watch?v=Wm1xKj4bKsY)
 
 ## How it's Done
-This ESP8266 sketch is based on the HTTP over TLS (HTTPS) example found [here](https://github.com/esp8266/Arduino/blob/master/libraries/ESP8266WiFi/examples/HTTPSRequestCACertAxTLS/HTTPSRequestCACertAxTLS.ino). We simply modified it a bit to include the current certificate for the api.virtualbuttons.com endpoint. _This certificate can change_, so you might have to update the certificate data in the future. That said, the certificate claims it will remain valid until June 29, 2034.
+This ESP8266 sketch is based on the HTTP over TLS (HTTPS) example found [here](https://initrd.net/stuff/WiFi_Kit_series/esp8266/libraries/ESP8266WiFi/examples/HTTPSRequestCACertAxTLS/). We simply modified it a bit to include the current certificate for the api.virtualbuttons.com endpoint. _This certificate can change_, so you might have to update the certificate data in the future. That said, the certificate claims it will remain valid until June 29, 2034.
 
 ## How to Use It
 Use of our example sketch assumes you have an Alexa device and an [ESP8266 device setup for use with the Arduino IDE](https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/). With these things in place, your next steps are:
