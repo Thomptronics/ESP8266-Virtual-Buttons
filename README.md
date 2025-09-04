@@ -1,3 +1,5 @@
+** NOTE: This currently does not work, likely due to an expired certificate. We will remove this notice when we've identified and fixed the issue. **
+
 # ESP8266-Virtual-Buttons
 Use [Virtual Buttons](https://amzn.to/3fNU09R) to trigger an Alexa Routine with an ESP8266
 
