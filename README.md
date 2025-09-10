@@ -4,7 +4,7 @@ Use [Virtual Buttons](https://amzn.to/3fNU09R) to trigger an Alexa Routine with 
 ## What is Virtual Buttons?
 Virtual Buttons combines an Alexa Smart Home skill with a REST API, allowing you to trigger Alex Routines with a simple REST call. To learn more about Virtual Buttons, please visit www.virtualbuttons.com
 
-## Caveats
+## Caveat
 This ESP8266 example sketch uses insecure mode to contact Virtual Buttons' HTTPS endpoint. In general, using insecure mode is considered a "bad" thing. But, it is our opinion that the only thing you are risking is having someone discover your access code (that is the only "personal" data you should be passing to the API), and that is an _extremely_ low risk. _If_ you think someone has acquired your Virtual Buttons access code and is using it to annoyingly pushing your buttons, just disable/re-enable the skill to change your access code to something else.
 
 ## How to Use It
